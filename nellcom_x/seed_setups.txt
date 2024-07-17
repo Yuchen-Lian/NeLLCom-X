@@ -1,0 +1,27 @@
+seed	multilang/singlelang	bidirection/one-dir	freeze_listener	sv_listener_only	phase0_selfcomm	phase1_selfcomm	file
+1420000	single			bidir			True		False			False		True		train_2agents_multilang_bidirection_freezelst_defaultfreeop.py
+1120000	multilang[mk50osv80]	one-dir			True		True			False		True		train_2agents_multilang_onedirection_svlst.py
+1620000	same as 1120000
+1320000	multilang[mk80osv50]	one-dir			True		True			False		True		train_2agents_multilang_onedirection_svlst_80mk50osv.py
+1520000	same as 1320000
+1220000	multilang[mk50osv20]	one-dir			True		True			False		True		train_2agents_multilang_onedirection_svlst_50mk20osv.py
+1920000	same as 1220000
+1720000	multilang[mk95osv50]
+2020000	same as 1720000
+2120000
+2220000	multilang[mk80osv50]	one-dir                 True            True                    False           False           train_2agents_multilang_onedirection_svlst_80mk50osv_noselfcomm_222.py
+2320000	multilang[mk95osv50]	one-dir                 True            True                    False           False           train_2agents_multilang_onedirection_svlst_95mk50osv_noselfcomm_232.py
+2420000	multilang[mk50osv80]	one-dir			True		True			False		False		train_2agents_multilang_onedirection_svlst_50mk80osv_noselfcomm_242.py
+2520000	multilang[mk75osv50]    one-dir                 True            True                    False           False		train_2agents_multilang_onedirection_svlst_75mk50osv_noselfcomm_252.py
+2620000	multilang[mk67osv75]	one-dir                 True            True                    False           False           train_2agents_multilang_onedirection_svlst_67mk75osv_noselfcomm_262.py
+2720000	multilang[mk67osv25]	one-dir                 True            True                    False           False           train_2agents_multilang_onedirection_svlst_67mk25osv_noselfcomm_272.py
+2820000	singlelang[msg6]	one-dir                 True            True                    False           False           train_2agents_multilang_onedirection_svlst_67mk50osv_noselfcomm_msg6_282.py
+2920000 single[msg6,coeff0.001]	one-dir                 True            True                    False           False           train_2agents_multilang_onedirection_svlst_67mk50osv_noselfcomm_msg6_coeff0001_292.py 
+1820000 multilang[mk50osv95]
+1020000	singlelang		one-dir			True		True			False		True		train_group_singlelang_svlst.py
+120000 singlelang		one-dir			False		False			False		True		train_group_singlelang_onedir.py
+220000	singlelang		one-dir			False		False			True		True		train_group_singlelang_onedir.py
+320000	multilang[random]	one-dir			False		False			False		True		train_group_multilang_selfcomm_multibatch_onedirection.py
+420000	multilang[random]	one-dir			False		False			False		True		train_group_multilang_selfcomm_singlebatch_onedirection.py
+520000	multilang[random]	bidirection		False		False			False		True		train_group_multilang_selfcomm_multibatch.py
+620000	multilang[random]	bidirection		False		False			Flase		True		train_group_multilang_selfcomm.py			
